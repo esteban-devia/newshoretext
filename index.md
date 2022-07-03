@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +15,13 @@
             <div class="menuMain_lang">
                 <label for="lang" class="text_base">en</label>
                 <input type="checkbox" name="lang" id="lang">
+                <div class="menuMain_lang_options">
+                    <ul>
+                        <li><a href="#">RU - Russian</a></li>
+                        <li><a href="#">DE - German</a></li>
+                        <li><a href="#">FR - French</a></li>
+                    </ul>
+                </div>
             </div>
             <nav>
                 <label for="ham" class="ham_menu">
@@ -34,7 +41,7 @@
     </header>
     <main>
         <section class="hero">
-            <img src="imgs/plane.jpg" alt="">
+            <img src="imgs/plane.jpg" alt="plane image">
             <div class="hero_text container_content">
                 <h2>Visit Canada with prices from $800</h2>
                 <p class="text_base">Prepare your bags and forget your worries<br>to start enjoying your holidays in this fantastic country</p>
@@ -50,30 +57,30 @@
                 <div class="offers_cards_main">
                     <div class="offers_cards">
                         <div class="card">
-                            <img src="imgs/moscow.jpg" alt="">
+                            <img src="imgs/moscow.jpg" alt="moscow card image">
                             <div class="card_text">
                                 <div>
-                                    <p class="text_light">Trip to Moscow</p>
+                                    <p class="text_light country_trip">Trip to Moscow</p>
                                     <p class="card_more text_light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in nulla mauris. <a href="#" class="text_light">more</a></p>
                                 </div>
                                 <p class="card_price">Price $600,86</p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="imgs/puerto-rico.jpg" alt="">
+                            <img src="imgs/puerto-rico.jpg" alt="puerto rico card image">
                             <div class="card_text">
                                 <div>
-                                    <p class="text_light">Trip to Puerto Rico</p>
+                                    <p class="text_light country_trip">Trip to Puerto Rico</p>
                                     <p class="card_more text_light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in nulla mauris. <a href="#" class="text_light">more</a></p>
                                 </div>
                                 <p class="card_price">Price $600,86</p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="imgs/honduras.jpg" alt="">
+                            <img src="imgs/honduras.jpg" alt="honduras card image">
                             <div class="card_text">
                                 <div>
-                                    <p class="text_light">Trip to Honduras</p>
+                                    <p class="text_light country_trip">Trip to Honduras</p>
                                     <p class="card_more text_light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in nulla mauris. <a href="#" class="text_light">more</a></p>
                                 </div>
                                 <p class="card_price">Price $600,86</p>
@@ -101,15 +108,15 @@
     <footer>
         <h2>Follow us</h2>
         <div class="footer_social">
-            <a href="#"><img src="imgs/facebook.svg" alt=""></a>
-            <a href="#"><img src="imgs/instagram.svg" alt=""></a>
-            <a href="#"><img src="imgs/twitter.svg" alt=""></a>
+            <a href="#"><img src="imgs/facebook.svg" alt="facebook icon"></a>
+            <a href="#"><img src="imgs/instagram.svg" alt="instagram icon"></a>
+            <a href="#"><img src="imgs/twitter.svg" alt="twitter icon"></a>
         </div>
         <nav class="footer_menu container_content">
             <div class="footer_menu_block">
                 <div class="footer_menu_col about">
                     <p class="text_base">About</p>
-                    <p class="footer_aboutUs">we want to help passengers to reach their destinations</p>
+                    <p class="footer_aboutUs">We want to help passengers to reach their destinations</p>
                 </div>
                 <div class="footer_menu_col">
                     <p class="text_base">Explore</p>
@@ -141,5 +148,6 @@
             </div>
         </nav>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
